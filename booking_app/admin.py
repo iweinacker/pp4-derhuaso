@@ -16,5 +16,5 @@ class TableAdmin(admin.ModelAdmin):
 @admin.register(Booking)
 class BookingAdmin(admin.ModelAdmin):
     list_display = ('table', 'group', 'date_required',
-                    'date_created', 'date_updated')
-    list_filter = ('table', 'group', 'date_required')
+                    'day', 'time')
+    list_filter = ('table', 'group', 'day')
