@@ -25,4 +25,3 @@ class Booking(models.Model):
     date_required = models.DateField()
     date_created = models.DateTimeField(default=timezone.now, blank=True)
     date_updated = models.DateTimeField(default=timezone.now, blank=True)
-
