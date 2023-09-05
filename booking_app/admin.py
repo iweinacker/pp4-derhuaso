@@ -18,3 +18,7 @@ class BookingAdmin(admin.ModelAdmin):
     list_display = ('table', 'group', 'date_required',
                     'day', 'time')
     list_filter = ('table', 'group', 'day')
+    actions = ['approve_bookings']
+   
+    def approve_bookings(self, request, queryset):
+        queryset.update(approved=True)
