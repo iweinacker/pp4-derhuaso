@@ -1,12 +1,12 @@
 body {
-    background-color: #F9FAFC;
+  background-color: lightblue;
 }
 
 .brand {
-    font-family: Lato, sans-serif;
-    font-size: 1.4rem;
-    font-weight: 700;
-    color: red;
+  font-family: Lato, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: red;
 }
 
 /* headings and logo */
@@ -14,8 +14,8 @@ body {
 h1,
 h2,
 h3 {
-    font-family: Arial, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #252525;
+  font-family: Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #252525;
 }

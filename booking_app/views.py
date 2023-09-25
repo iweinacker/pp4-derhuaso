@@ -19,6 +19,7 @@ class ReservationView(ListView):
             booking = Booking(
                 first_name=form.cleaned_data['first_name'],
                 last_name=form.cleaned_data['last_name'],
+                phone=form.cleaned_data['phone'],
                 seats=form.cleaned_data['seats'],
                 date_required=form.cleaned_data['date_required'],
                 time=form.cleaned_data['time'],
