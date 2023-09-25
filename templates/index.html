@@ -1,11 +1,15 @@
-{% extends 'base.html' %}
+{% extends "base.html" %}
 {% load static %}
 
 {% block content %}
 
+<!-- ======= Hero Section ======= -->
+<img src="{% static 'booking_app/images/empanadas.jpg' %}" alt="Hero Image" id=hero-img>
+<!-- End Hero -->
+
 {% for booking in bookings %}
 <h1>Bookings</h1>
-<br/><br/>
+<br /><br />
 <div class="form-group">
     <form method="POST" action="{% url 'ReservationView' %}">
         {% csrf_token %}
@@ -13,6 +17,6 @@
 </div>
 
 <button class="btn btn-secondary">Submit</button>
+{%endfor%}
 
-{% endfor %}
-{% endblock %}
+{%endblock%}

@@ -7,7 +7,7 @@ from .forms import ReservationForm
 
 class ReservationView(ListView):
     model = Booking
-    template_name = 'home.html'
+    template_name = 'index.html'
 
     def get(self, request):
         return render(request, 'index.html', {'form': ReservationForm})

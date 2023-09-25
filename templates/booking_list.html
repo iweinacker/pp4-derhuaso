@@ -1,7 +1,18 @@
-{% extends 'base.html' %} {% load static %} {% block content %}
-<h1>Booking List</h1>
-<form method="post">
-  {% csrf_token %} {{ form.as_p }}
-  <button type="submit">Submit</button>
-</form>
+{% extends 'base.html' %} 
+{% load static %} 
+
+{% block content %}
+
+{% for booking in bookings %}
+<h1>Bookings</h1>
+<br /><br />
+<div class="form-group">
+    <form method="POST" action="{% url 'ReservationView' %}">
+        {% csrf_token %}
+        {{ form.as_p }}
+</div>
+
+<button class="btn btn-secondary">Submit</button>
+
+
 {% endblock %}

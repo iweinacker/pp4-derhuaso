@@ -109,15 +109,11 @@
       </div>
     </nav>
 
-    <h1>Booking List</h1>
-    <form method="post">
-      {% csrf_token %} {{ form.as_p }}
+<main id="main">
+    {% block content %}
 
-      <button type="submit">Submit</button>
-    </form>
-
-    <main id="main">{% block content %} {% endblock %}</main>
-    <!-- End #main -->
+    {% endblock %}
+</main><!-- End #main -->
 
     <!-- Footer -->
     <footer class="footer mt-auto py-3 dark-bg">
