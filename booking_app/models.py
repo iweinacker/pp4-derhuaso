@@ -16,28 +16,35 @@ HOURS = (
     ("10 PM", "10 PM"),
 )
 
-class Customer(models.Model):
-    first_name = models.CharField(max_length=50, unique=True, blank=True,
-                                  editable=True)
-    last_name = models.CharField(max_length=50, unique=True, blank=True,
-                                 editable=True)
-    phone = models.CharField(max_length=100)
-    email = models.CharField(max_length=50, unique=True, blank=True,
-                                 editable=True)
-
-class Table(models.Model):
-    seats = models.IntegerField()
-    minimun_people = models.IntegerField()
-    maximum_people = models.IntegerField()
-
 
 class Booking(models.Model):
-    table = models.ForeignKey('Table', on_delete=models.CASCADE)
-    group = models.ForeignKey('Customer', on_delete=models.CASCADE)
+    first_name = models.CharField(max_length=50, unique=True,
+                                  blank=True, editable=True)
+    last_name = models.CharField(max_length=50, unique=True,
+                                 blank=True, editable=True)
+    phone = models.CharField(max_length=100, default='1234567890')
+    email = models.CharField(max_length=50, unique=True,
+                             blank=True, editable=True)
+    seats = models.IntegerField(default=2)
+    table = models.ForeignKey(User, on_delete=models.CASCADE,
+                              related_name='table_bookings')
+    group = models.ForeignKey(User, on_delete=models.CASCADE,
+                              related_name='group_bookings')
     date_required = models.DateField()
     time = models.CharField(max_length=20, choices=HOURS, default="6:00 PM")
     day = models.DateTimeField(default=timezone.now, blank=True)
-    date_updated = models.DateTimeField(default=timezone.now, blank=True)
 
 
+# class Table(models.Model):
+#     seats = models.IntegerField()
+#     minimun_people = models.IntegerField()
+#     maximum_people = models.IntegerField()
 
+
+# class Booking(models.Model):
+#     table = models.ForeignKey('Table', on_delete=models.CASCADE)
+#     group = models.ForeignKey('Customer', on_delete=models.CASCADE)
+#     date_required = models.DateField()
+#     time = models.CharField(max_length=20, choices=HOURS, default="6:00 PM")
+#     day = models.DateTimeField(default=timezone.now, blank=True)
+#     date_updated = models.DateTimeField(default=timezone.now, blank=True)

@@ -1,31 +1,18 @@
-{% extends "base.html" %}
+{% extends 'base.html' %}
 {% load static %}
 
 {% block content %}
-{% block content %}
+
+{% for booking in bookings %}
 <h1>Bookings</h1>
-<table>
-    <thead>
-        <tr>
-            <th>Name</th>
-            <th>Email</th>
-            <th>Phone Number</th>
-            <th>Date</th>
-            <th>Time</th>
-            <th>Number of Guests</th>
-        </tr>
-    </thead>
-    <tbody>
-        {% for booking in bookings %}
-        <tr>
-            <td>{{ booking.name }}</td>
-            <td>{{ booking.email }}</td>
-            <td>{{ booking.phone }}</td>
-            <td>{{ booking.date }}</td>
-            <td>{{ booking.time }}</td>
-            <td>{{ booking.number_of_guests }}</td>
-        </tr>
-        {% endfor %}
-    </tbody>
-</table>
+<br/><br/>
+<div class="form-group">
+    <form method="POST" action="{% url 'ReservationView' %}">
+        {% csrf_token %}
+        {{ form.as_p }}
+</div>
+
+<button class="btn btn-secondary">Submit</button>
+
+{% endfor %}
 {% endblock %}
