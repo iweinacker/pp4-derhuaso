@@ -45,7 +45,7 @@
     />
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="{% static 'css/style.css' %}"/>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
 
     <!-- jQuery -->
     <link
@@ -109,19 +109,28 @@
       </div>
     </nav>
 
-<main id="main">
-    {% block content %}
-
-    {% endblock %}
-</main><!-- End #main -->
+    <main id="main">{% block content %} {% endblock %}</main>
+    <!-- End #main -->
 
     <!-- Footer -->
-    <footer class="footer mt-auto py-3 dark-bg">
-      <p class="m-0 text-center text-white">
+    <hr style="height: 5px; background-color: white;">
+    <footer class="footer col-lg-12 mt-auto py-3 dark-bg">
+      <div class="col-lg-12 text-sm-center text-white">
+        <h3 class= "text-sm-center text-white">Contact Us</h3>
+        <p class="text-sm-center ms-3">123 Main Street, City, Country</p>
+        <p class="text-sm-center text-white">Email: info@restaurant.com</p>
+        <p class="text-sm-center text-white  ms-3">Phone: 123-456-7890</p>
+      </div>
+      <br>
+      <p class="col-lg-12 m-0 text-center text-white">
         Follow us: <i class="fab fa-facebook-square ms-3"></i>
         <i class="fab fa-twitter-square ms-3"></i>
         <i class="fab fa-instagram-square ms-3"></i>
         <i class="fab fa-youtube-square ms-3"></i>
+      </p>
+      <br />
+      <p class="m-0 text-center text-white">
+        © 2023 DerHuaso Restaurant. All rights reserved.
       </p>
     </footer>
 

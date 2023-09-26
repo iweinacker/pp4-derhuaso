@@ -14,7 +14,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-10 offset-lg-1">
-                <div class="alert alert-primary text-center ">
+                <div class="alert alert-light text-center">
                     Open Everyday from 6pm to 12pm - Bookings Essential - Reservation until 10pm
                 </div>
             </div>
@@ -42,6 +42,7 @@
     </div>
 </section>
 
+<hr style="height: 5px; background-color: white;">
 
 {% for booking in bookings %}
 <h1>Bookings</h1>
@@ -54,5 +55,7 @@
 
 <button class="btn btn-secondary">Submit</button>
 {%endfor%}
+
+
 
 {%endblock%}
