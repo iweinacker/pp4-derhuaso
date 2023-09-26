@@ -4,8 +4,44 @@
 {% block content %}
 
 <!-- ======= Hero Section ======= -->
-<img src="{% static 'booking_app/images/empanadas.jpg' %}" alt="Hero Image" id=hero-img>
+<section>
+<img src="{% static 'booking_app/images/empanadas1.jpg' %}" alt="Hero Image" class="hero-image">
+</section>
 <!-- End Hero -->
+
+<!-- Alert message -->
+<section class="my-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 offset-lg-1">
+                <div class="alert alert-primary text-center ">
+                    Open Everyday from 6pm to 12pm - Bookings Essential - Reservation until 10pm
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<br>
+
+<section class="my-3">
+    <div class="container">
+        <div class="col-lg-12">
+            <h2 class="text-center">History</h2>
+            <br>
+            <p class="text-center">Welcome to DerHuaso, a restaurant that brings the flavors of Chilean dishes to Germany. Our story began in 1995
+            when our founder, Ignacio, moved to Germany from Chile. He missed the taste of home and wanted to share it with
+            others. So, she started cooking traditional Chilean dishes in her kitchen and invited her friends over to try them.
+            They loved the food so much that they encouraged her to open a restaurant.</p>
+            <br>
+            <p class="text-center">We’re proud to say that we use only the freshest ingredients in our dishes and prepare everything from scratch. We also
+            have an extensive selection of Latin American wines and cocktails to complement your meal.</p>
+            <br>
+            <p class="text-center">Thank you for choosing DerHuaso Restaurant We hope you enjoy your dining experience with us!</p>
+        </div>
+    </div>
+</section>
+
 
 {% for booking in bookings %}
 <h1>Bookings</h1>
