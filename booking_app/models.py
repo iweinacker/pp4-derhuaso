@@ -17,11 +17,11 @@ HOURS = (
 )
 
 SEATS = (
-    ("2", "2"),
-    ("3", "3"),
-    ("4", "4"),
-    ("5", "5"),
-    ("6", "6"),
+    (2, "2"),
+    (3, "3"),
+    (4, "4"),
+    (5, "5"),
+    (6, "6"),
 )
 
 
@@ -34,10 +34,10 @@ class Booking(models.Model):
     email = models.CharField(max_length=50, unique=True,
                              blank=True, editable=True)
     seats = models.IntegerField(default=2, choices=SEATS)
-    table = models.ForeignKey(User, on_delete=models.CASCADE,
-                              related_name='table_bookings')
-    group = models.ForeignKey(User, on_delete=models.CASCADE,
-                              related_name='group_bookings')
-    date_required = models.DateField()
+    date_required = models.DateTimeField(default=timezone.now, blank=True)
     time = models.CharField(max_length=20, choices=HOURS, default="6:00 PM")
     day = models.DateTimeField(default=timezone.now, blank=True)
+
+    def save(self, *args, **kwargs):
+
+        super(Booking, self).save(*args, **kwargs)

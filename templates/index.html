@@ -14,7 +14,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-10 offset-lg-1">
-                <div class="alert alert-light text-center">
+                <div class="alert alert-danger text-center">
                     Open Everyday from 6pm to 12pm - Bookings Essential - Reservation until 10pm
                 </div>
             </div>
@@ -41,18 +41,41 @@
         </div>
     </div>
 </section>
-
+<br>
 <hr style="height: 2px; background-color: white;">
-
+<br>
 <!-- Show Booking form -->
-
-<h1 class="text-center">Booking Form</h1>
-
-<form method="post" class="col-sm-8 mt-3 offset-md-2">
-    {% csrf_token %}
-    {{ form.as_p }}
-    <button type="submit">Submit</button>
-</form>
+<div class="container my-3">
+    <div class="row">
+        <div class="col-md-8">
+            <!-- Left column with some information -->
+            <h4 class="text-sm-center ">Chilean Food: A Culinary Journey</h4>
+            <br>
+            <p class="text-left">Chilean cuisine is a reflection of the country’s diverse geography and rich culinary heritage. The coastal region offers
+            an abundance of seafood, including oysters, scallops, salmon, clams, and Patagonian King Crab. Chilean seafood is often
+            prepared simply, allowing the natural flavors to shine through. Traditional dishes like empanadas and pastel de choclo
+            showcase the country’s culinary heritage. The Spanish influence can be seen in fisherman’s stews, while fusion dishes
+            like ceviche and sushi reflect other culinary influences</p>
+            <br>
+            <h4 class="text-sm-center ">Chilean Wine: A Perfect Pairing</h4>
+            <br>
+            <p class="text-left">Chilean wine is another highlight of the country’s gastronomy. The coastal wine regions produce crisp and aromatic wines
+            that pair perfectly with seafood. Sauvignon Blanc from Leyda offers herbal aromatics and citrus fruit flavors, while
+            Chardonnay from Limari is known for its tropical and mineral-rich profile. For red wine lovers, cool climate Pinot Noir
+            from Casablanca Valley is earthy and fruity, making it an excellent choice for seafood pairings.</p>
+            
+        </div>
+        <div class="col-md-4 border border-2 border-light-subtle">
+            <!-- Right column with the form -->
+            <h4 class="text-sm-center">Booking Form</h4>
+            <form method="post">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
 
 <br>
 

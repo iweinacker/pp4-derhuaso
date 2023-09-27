@@ -1,5 +1,5 @@
 body {
-    background-color: #061174;
+    background-color: white;
 }
 
 .brand {
@@ -13,15 +13,15 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
     font-family: Arial, sans-serif;
-    text-transform: uppercase;
     letter-spacing: 4px;
-    color: white;
+    color: #bf0505;
 }
 
 p {
-    color: white
+    color: black;
 }
 
 .hero-image {
