@@ -4,8 +4,12 @@
 {% block content %}
 
 <!-- ======= Hero Section ======= -->
-<section>
-<img src="{% static 'booking_app/images/empanadas1.jpg' %}" alt="Hero Image" class="hero-image">
+<section style="position: relative;">
+    <img src="{% static 'booking_app/images/moai.jpg' %}" alt="Hero Image" class="hero-image" width="80%" height="600">
+    <div
+        style="position: absolute; top: calc(50% - 50px); left: 50%; transform: translate(-50%, -50%); text-align: center;">
+        <h1 style="color: white;">Welcome to DerHuaso Restaurant</h1>
+    </div>
 </section>
 <!-- End Hero -->
 
@@ -42,13 +46,13 @@
     </div>
 </section>
 <br>
-<hr style="height: 2px; background-color: white;">
+<hr style="height: 2px; background-color: #bf0505" />
 <br>
 <!-- Show Booking form -->
 <div class="container my-3">
     <div class="row">
         <div class="col-md-8">
-            <!-- Left column with some information -->
+            <!-- Left column with Restaurant information -->
             <h4 class="text-sm-center ">Chilean Food: A Culinary Journey</h4>
             <br>
             <p class="text-left">Chilean cuisine is a reflection of the country’s diverse geography and rich culinary heritage. The coastal region offers
@@ -63,37 +67,30 @@
             that pair perfectly with seafood. Sauvignon Blanc from Leyda offers herbal aromatics and citrus fruit flavors, while
             Chardonnay from Limari is known for its tropical and mineral-rich profile. For red wine lovers, cool climate Pinot Noir
             from Casablanca Valley is earthy and fruity, making it an excellent choice for seafood pairings.</p>
-            
+            <br>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="{% static 'booking_app/images/empanadas.jpg' %}" alt="Food Image" class="food" width="300"
+                        height="200">
+                </div>
+                <div class="col-md-6">
+                    <img src="{% static 'booking_app/images/wines.jpg' %}" alt="Wine Image" class="food" width="300"
+                        height="200">
+                </div>
+            </div>
         </div>
-        <div class="col-md-4 border border-2 border-light-subtle">
+        <div class="col-md-4 custom-form">
             <!-- Right column with the form -->
             <h4 class="text-sm-center">Booking Form</h4>
             <form method="post">
                 {% csrf_token %}
                 {{ form.as_p }}
-                <button type="submit">Submit</button>
+                <button class= "custom-color" type="submit">Submit</button>
             </form>
         </div>
     </div>
 </div>
 
 <br>
-
-
-
-
-<!-- {% for booking in bookings %}
-<h1>Bookings</h1>
-<br /><br />
-<div class="form-group">
-    <form method="POST" action="{% url 'ReservationView' %}">
-        {% csrf_token %}
-        {{ form.as_p }}
-</div>
-
-<button class="btn btn-secondary">Submit</button>
-{%endfor%} -->
-
-
 
 {%endblock%}

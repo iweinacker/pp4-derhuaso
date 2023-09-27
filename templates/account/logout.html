@@ -8,7 +8,7 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-md-8 mt-3 offset-md-2">
+    <div class="col-md-8 mt-3 offset-md-2 custom-form">
       <h3>{% trans "Sign Out" %}</h3>
 
       <p>{% trans 'Are you sure you want to sign out?' %}</p>
@@ -24,7 +24,7 @@
           value="{{ redirect_field_value }}"
         />
         {% endif %}
-        <button class="btn btn-signup right" type="submit">
+        <button class="btn btn-signup right custom-color" type="submit">
           {% trans 'Sign Out' %}
         </button>
       </form>

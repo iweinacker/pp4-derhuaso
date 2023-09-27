@@ -31,6 +31,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+# X_FRAME_OPTIONS = 'SAMEORIGIN'
+
 ALLOWED_HOSTS = [os.environ.get('ALLOWED_HOST'), 'localhost',
                  '8000-iweinacker-pp4-derhuaso-fj7mpt3rjh.us2.codeanyapp.com']
 

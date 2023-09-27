@@ -27,10 +27,12 @@ def reservation_view(request):
             booking.save()
 
             messages.success(
-                request, 'Booking complete, we are checking our availability, please wait for a call back.')
+                request, 'Booking complete, we are checking our availability, please wait for a call back.'
+                 )
         else:
             messages.error(
-                request, 'There was an error with your submission. Please try again.')
+                request, 'There was an error with your submission. Please try again.'
+                 )
     else:
         form = ReservationForm()
 
