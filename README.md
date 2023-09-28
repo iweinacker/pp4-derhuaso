@@ -30,12 +30,14 @@ Link to Deployed Project [here](https://booking-iwp-app-b8b0f460b444.herokuapp.c
   * [Local Development](#local-development)
   * [How to Fork](#How-to-Fork)
   * [How to Clone](#How-to-Clone)
+
    
 * [Testing](#testing)
-  *[Manual Testing](Manual-Testing) 
-  *[Lighthouse](#Lighthouse) 
+  * [Manual Testing](Manual-Testing)
+  * [Lighthouse](#Lighthouse)
 
 * [Credits](#credits)
+* [Media](#Media)
   
 
 ---
