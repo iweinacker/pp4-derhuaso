@@ -32,12 +32,12 @@ p {
     background-repeat: no-repeat;
 }
 
-.custom-bg {
-    background-color: #061174;
-}
-
 .alert {
     color: #061174;
+}
+
+.custom-bg {
+    background-color: #061174;
 }
 
 .custom-color {
@@ -49,4 +49,51 @@ p {
     border-style: solid;
     border-color: #bf0505;
     padding: 10px;
+}
+
+/* Custom the food and wine image */
+.food {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+}
+
+@media (max-width: 992px) {
+    .food {
+        max-width: 400px;
+    }
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .food {
+        max-width: 300px;
+    }
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .food {
+        max-width: 200px;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
 }
