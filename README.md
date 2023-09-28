@@ -207,10 +207,10 @@ Special thanks to the CodeInstitute team, who without their help and guidance, t
 
 The links will be found below: 
 
-[django project](https://docs.djangoproject.com/en/4.2/topics/forms/modelforms/)
-[StackOverflow](https://stackoverflow.com/questions/31627253/django-modelform-with-bootstrap)
-[codemy.com](https://www.youtube.com/watch?v=6-XXvUENY_8)
-[w3collective](https://w3collective.com/restaurant-landing-page-bootstrap/)
-[ByteGrad](https://www.youtube.com/watch?v=UqE8b1BtXTs)
-[geeksforgeeks](https://www.geeksforgeeks.org/overriding-the-save-method-django-models/)
-[rstan-dev: yoomoov project](https://github.com/rstan-dev/pp4-yoomoov)
+- [django project](https://docs.djangoproject.com/en/4.2/topics/forms/modelforms/)
+- [StackOverflow](https://stackoverflow.com/questions/31627253/django-modelform-with-bootstrap)
+- [codemy.com](https://www.youtube.com/watch?v=6-XXvUENY_8)
+- [w3collective](https://w3collective.com/restaurant-landing-page-bootstrap/)
+- [ByteGrad](https://www.youtube.com/watch?v=UqE8b1BtXTs)
+- [geeksforgeeks](https://www.geeksforgeeks.org/overriding-the-save-method-django-models/)
+- [rstan-dev: yoomoov project](https://github.com/rstan-dev/pp4-yoomoov)
