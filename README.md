@@ -234,3 +234,9 @@ The links will be found below:
 - [ByteGrad](https://www.youtube.com/watch?v=UqE8b1BtXTs)
 - [geeksforgeeks](https://www.geeksforgeeks.org/overriding-the-save-method-django-models/)
 - [rstan-dev: yoomoov project](https://github.com/rstan-dev/pp4-yoomoov)
+
+## Media
+
+all images came from:
+[Pixabay](https://pixabay.com/)
+[Pexels](https://www.pexels.com/es-es/)
