@@ -32,6 +32,8 @@ Link to Deployed Project [here](https://booking-iwp-app-b8b0f460b444.herokuapp.c
   * [How to Clone](#How-to-Clone)
    
 * [Testing](#testing)
+  *[Manual Testing](Manual-Testing) 
+  *[Lighthouse](#Lighthouse) 
 
 * [Credits](#credits)
   
@@ -200,7 +202,8 @@ To clone the DerHuaso repository:
 4. Browser Compatability tests.
 5. Manual testing 
 
-### Manualy Testing
+### Manual Testing
+
 I have manually tested this project doing the following:
 
 - I have register with a new account.
