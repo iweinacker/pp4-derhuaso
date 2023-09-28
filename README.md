@@ -2,9 +2,10 @@
 
 The DerHuaso Restaurant website is designed to be a responsive website that allows visitors to view it on a range of devices. It allows the user to book a table for the restaurant and also allows the admin to administer those bookings.
 
-(Image of amiresponsive)
+![image](https://github.com/iweinacker/pp4-derhuaso/assets/130374663/81aaea3d-9ef9-4ef0-b765-24a9e44ba171)
 
-Link to Deployed Project [here]()
+
+Link to Deployed Project [here](https://booking-iwp-app-b8b0f460b444.herokuapp.com/)
 
 ## CONTENTS
 
@@ -197,7 +198,23 @@ To clone the DerHuaso repository:
 2. Early user observation test.
 3. HTML, CSS, JSHINT, PYLINT, Lighthouse.
 4. Browser Compatability tests.
-5. Django Automated Testing using Unittest
+5. Manual testing 
+
+### Manualy Testing
+I have manually tested this project doing the following:
+
+- I have register with a new account.
+- I have log in and log out, checking that the messages that correspond appear.
+- I have make different booking, in which if it the same person or same email, the booking is rejected and is not reflected in the administrator panel. But if it works, the information appear as it should.
+- The admin also can create, modify and eliminate booking in the admin panel.
+
+### Lighthouse
+
+I used Lighthouse within the Chrome Developer Tools to allow me to test the performance, accessibility, best practices and SEO of the website.
+
+![image](https://github.com/iweinacker/pp4-derhuaso/assets/130374663/954ed269-06b9-4304-9eb9-2881e4c17504)
+
+
 
 ## Credits
 
