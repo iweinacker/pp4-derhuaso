@@ -51,36 +51,36 @@ As a developer, I need to understand the general requirements and visual layout 
 - Initial Django Project Setup:
 As a developer, I should set up the initial Django project files in my development environment and deploy them to Heroku so that I can identify and resolve deployment issues at an early stage.
 - Create Bootstrap Template:
-- As a developer, I have to implement a basic Bootstrap template for the booking website to meet the minimum viable design requirements.
-iv. Create Booking Model:
-- As an admin user, I can add booking models in the admin area so that I can ensure that the information populates relevant sections on the frontend template.
-v. Create Admin Account:
-- As an admin user, I can create a superuser account so that I can access the admin area and manage content for the booking app.
-vi. Make a Booking:
-- As a site user, I can create a reservation directly from the website so that I can receive a confirmation which will allow me to be sure that my reservation was successfully received.
-vii. Onscreen Login/Logout Notifications:
-- As a site user, I should see on-screen notifications so that I can confirm that I have logged in or logged out successfully.
-vii. Test and Validate Technologies:
-- As a developer, I have to validate HTML, CSS, JavaScript, and Python code using validation tools so that I can ensure conformity to standards.
-ix. Implement Automatic Unit Tests:
-- As a developer, I will create automatic unit tests to showcase coding competency and enhance code quality.
-x. Final Deployment:
-- As a developer, I will deploy the final version of the Booking project to Heroku so that it matches the development environment.
+As a developer, I have to implement a basic Bootstrap template for the booking website to meet the minimum viable design requirements.
+- Create Booking Model:
+As an admin user, I can add booking models in the admin area so that I can ensure that the information populates relevant sections on the frontend template.
+- Create Admin Account:
+As an admin user, I can create a superuser account so that I can access the admin area and manage content for the booking app.
+- Make a Booking:
+As a site user, I can create a reservation directly from the website so that I can receive a confirmation which will allow me to be sure that my reservation was successfully received.
+- Onscreen Login/Logout Notifications:
+As a site user, I should see on-screen notifications so that I can confirm that I have logged in or logged out successfully.
+- Test and Validate Technologies:
+As a developer, I have to validate HTML, CSS, JavaScript, and Python code using validation tools so that I can ensure conformity to standards.
+- Implement Automatic Unit Tests:
+As a developer, I will create automatic unit tests to showcase coding competency and enhance code quality.
+- Final Deployment:
+As a developer, I will deploy the final version of the Booking project to Heroku so that it matches the development environment.
 
 ### Future Development
 
-i. Modify or delete booking on user dashboard
-- As a Site User, I can modify or remove a reservation from my dashboard so that I can correct any mistakes or cancel the reservation if it is no longer required.
-ii. Avoid double bookings
-- As a Developer, I have to create a model that avoids double booking so that different users cannot book the same table on the same day.
-iii. Create Feedback Model
+- Modify or delete booking on user dashboard:
+As a Site User, I can modify or remove a reservation from my dashboard so that I can correct any mistakes or cancel the reservation if it is no longer required.
+- Avoid double bookings:
+As a Developer, I have to create a model that avoids double booking so that different users cannot book the same table on the same day.
+- Create Feedback Model:
 As an admin user, I can manage and view feedback details in the admin area so that I can approve feedback for display.
-iv. Provide Feedback after the restaurant's experience.
-- As a Site User, I can provide feedback using the feedback button on my dashboard so that I can share my opinion about the service.
-v. Contact Admin via Email
-- As a Site User, I can use a contact form to send an email to the admin with inquiries or requests for assistance.
-vi. Receive Reservation Email Notifications
-- As an Admin User, I can send email notifications to confirm when a reservation is created, approved, updated, or canceled. This ensures that I can manage my bookings effectively.
+- Provide Feedback after the restaurant's experience:
+As a Site User, I can provide feedback using the feedback button on my dashboard so that I can share my opinion about the service.
+- Contact Admin via Email:
+As a Site User, I can use a contact form to send an email to the admin with inquiries or requests for assistance.
+- Receive Reservation Email Notifications:
+As an Admin User, I can send email notifications to confirm when a reservation is created, approved, updated, or canceled. This ensures that I can manage my bookings effectively.
 
 ## Design
 
