@@ -47,10 +47,9 @@ Additionally, the administrator can add, modify, or delete reservations on the w
 ### User Stories
 
 i. Gather General Requirements and Visual Layout:
-- As a developer, I need to understand the general requirements and visual layout of the booking app to guide incremental development.
-
+As a developer, I need to understand the general requirements and visual layout of the booking app to guide incremental development.
 ii. Initial Django Project Setup:
-- As a developer, I should set up the initial Django project files in my development environment and deploy them to Heroku so that I can identify and resolve deployment issues at an early stage.
+As a developer, I should set up the initial Django project files in my development environment and deploy them to Heroku so that I can identify and resolve deployment issues at an early stage.
 iii. Create Bootstrap Template:
 - As a developer, I have to implement a basic Bootstrap template for the booking website to meet the minimum viable design requirements.
 iv. Create Booking Model:
