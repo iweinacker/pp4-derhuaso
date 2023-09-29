@@ -31,7 +31,6 @@ Link to Deployed Project [here](https://booking-iwp-app-b8b0f460b444.herokuapp.c
   * [How to Fork](#How-to-Fork)
   * [How to Clone](#How-to-Clone)
 
-   
 * [Testing](#testing)
   * [Manual Testing](Manual-Testing)
   * [Lighthouse](#Lighthouse)
@@ -120,7 +119,7 @@ Additionally, all pages have a **footer** that contains contact information and 
 - Following that, the website contains an **"about us" section** that briefly explains the history and purpose of the restaurant.
 - The page is then divided into two columns:
     - The first column explains Chilean cuisine and wine.
-    - The right column, which is the main purpose of the app, is the **booking form**. When you make a reservation, it will automatically send the information to the admin. In case of a successful booking or if there is a problem with the booking, a message will appear at the top of the page with the corresponding message. In case of an error, it will explain the reason for it¹.
+    - The right column, which is the main purpose of the app, is the **booking form**. When you make a reservation, it will automatically send the information to the admin. In case of a successful booking or if there is a problem with the booking, a message will appear at the top of the page with the corresponding message. In case of an error, it will explain the reason for it.
 
 **LogIn**, **LogOut**, and **Register**:
 - On these three pages, only either a form or an "are you sure" option appears, depending on the action you are taking¹.
@@ -160,7 +159,6 @@ I have been mindful during coding to ensure that the website is as accessible-fr
 7. Github - To save and store the files for the website.
 8. Google Fonts - To import the fonts used on the website.
 9. Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
-10. Am I Responsive? To show the website image on a range of devices.
 
 ## Deployment & Local Development
 
@@ -240,5 +238,6 @@ The links will be found below:
 ## Media
 
 all images came from:
-[Pixabay](https://pixabay.com/)
-[Pexels](https://www.pexels.com/es-es/)
+
+- [Pixabay](https://pixabay.com/)
+- [Pexels](https://www.pexels.com/es-es/)
