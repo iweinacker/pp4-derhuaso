@@ -223,7 +223,7 @@ I used Lighthouse within the Chrome Developer Tools to allow me to test the perf
 
 All the following people, links, Youtube channels, and sites have helped me as a guidance for developing DerHuaso. I humbly thank everyone for their help, both directly and indirectly, or as an inspiration in the development of the code and its functionality.
 
-Special thanks to the CodeInstitute team, who without their help and guidance, this would not be possible.
+Special thanks to the Code Institute team, who without their help and guidance, this would not be possible.
 
 The links will be found below: 
 
@@ -234,6 +234,7 @@ The links will be found below:
 - [ByteGrad](https://www.youtube.com/watch?v=UqE8b1BtXTs)
 - [geeksforgeeks](https://www.geeksforgeeks.org/overriding-the-save-method-django-models/)
 - [rstan-dev: yoomoov project](https://github.com/rstan-dev/pp4-yoomoov)
+- [Code Institute](https://codeinstitute.net/de/)
 
 ## Media
 
